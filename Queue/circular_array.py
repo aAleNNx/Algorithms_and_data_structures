@@ -39,4 +39,4 @@ class queue_cir:
             idx = (idx + 1) % self.size 
         result = result.rstrip(", ") + "]"
         return result
-
+    
