@@ -95,9 +95,10 @@ def test_2(size, c1=1, c2=0):
     print(ht)
 
 def main():
+    print("\n=== Test 1 ===")
     test_1(13, 1, 0)
     
-    print("=== Liniowe ===")
+    print("\n=== Liniowe ===")
     test_2(13, 1, 0)
 
     print("\n=== Kwadratowe ===")
